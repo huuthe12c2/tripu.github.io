@@ -1,0 +1,254 @@
+.footer1{
+    background: #464c55;
+}
+.footer1 .logo-ft{
+    width: 100px;
+    display: block;
+}
+.footer1 .logo-ft img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-detail .text{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 40px;
+}
+.info-detail .img{
+    float: left;
+    height: 40px;
+    vertical-align: middle;
+}
+.form-ft form{
+    position: relative;
+    display: block;
+}
+.form-ft input{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 50px 10px 50px;
+}
+.form-ft input:focus,
+.btn-send-email:focus{
+    outline: none;
+}
+.btn-send-email{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+}
+
+.icon-mail-o{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.list-link a{
+    display: block;
+    margin: 10px 0px;
+    color: #fff;
+}
+.list-link a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.list-link-icon img{
+    width: 50px;
+    object-fit: cover;
+}
+.list-link-icon a{
+    margin-right: 5px;
+}
+.img-app{
+    max-width: 150px;
+}
+.img-app img{
+    width: 100%;
+}
+.fix-img{
+    width: 40px;
+}
+.fix-img1{
+    width: 100px;
+}
+
+
+.footer-absolute{
+    padding: 10px 20px;
+}
+@media only screen and (max-width:500px){
+   .footer-absolute{
+       font-size: 10px;
+   } 
+   .footer-absolute .col-6{
+        padding: 0;
+        text-align: center!important;
+   }
+   .footer1 p.c-white {
+    font-size: 12px;
+    }  
+   .list-link a{
+       font-size: 10px;
+   }
+   .fix-img{
+       width: 30px;
+   }
+   .fix-img1{
+       width: 75px;
+   }
+   .img-app img{
+       width: 80%;
+   }
+   .list-link-icon img{
+       width: 35px;
+   }
+
+}
+
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    text-decoration: none;
+    color: unset;
+}
+ul{
+    list-style: none;
+}
+.footer hr{
+    border-top: 0.7px solid #707070;
+    margin-top: 0;
+}
+.footer{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* footer top */
+.footer-top{
+    position: relative;
+}
+.agency-logo{
+    line-height: 100px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.agency-logo img{
+    width: 120px;
+}
+
+/* footer middle */
+.footer-mid{
+    padding: 30px 0;
+    color: white;
+    width: 100%;
+    margin: 0;
+    background-color: #0A1B58;
+}
+.footer-list-title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.footer-list-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+.list-icon-app{
+    margin-bottom:10px;
+    text-align: center;
+}
+.list-icon-app img{
+    height: 40px;
+    width: 150px;
+}
+.label-flag img{
+    height: 30px;
+}
+.pay-method{
+    flex-flow: row-reverse;
+}
+.pay-method-item{
+    width: 10%;
+    margin: auto;
+}
+.pay-method img{
+    height: 30px;
+    display: block;
+    width: 100%;
+}
+.footer-mid select{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+}
+.slt-currency select{
+    vertical-align: sub;
+}
+
+/* footer bottom */
+.footer-bot{
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    background-color: white;
+    font-size:16px;
+    line-height: 50px;
+    font-weight: 400;
+}
+img.footer-icon{
+    height: 20px;
+    width: auto;
+}
+
+@media only screen and (max-width:500px){
+/* footer top */
+ 
+/* footer middle */
+
+    .d-mb-none{
+        display: none;
+    }
+    .footer-mid{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-list-title{
+        font-size: 19px;
+    }
+    .footer-list-item{
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .pay-method{
+        flex-wrap: wrap;
+    }
+    .pay-method-item{
+        width: 11%;
+        padding: 0px;
+    }
+    .pay-method-item img{
+        height: 25px;
+    }
+
+/* footer bottom */
+    .sm-center{
+        text-align: center!important;
+    }
+
+
+
+}

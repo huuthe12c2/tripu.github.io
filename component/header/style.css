@@ -1,0 +1,124 @@
+.menu-wrap ul li{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+.menu-wrap ul li a{
+    display: block;
+    color: #000;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.menu-wrap ul li:last-child a{
+    color: #707070;
+}
+.menu-wrap ul li a:hover{
+    text-decoration: none;
+}
+.menu-wrap, .logo-wrap{
+    float: left;
+}
+.option-box, .user{
+    float: right;
+}
+.option-box strong{
+    position: relative;
+    top:2px;
+    text-decoration: underline;
+}
+.user a {
+    color:#000;
+    font-weight: 600;
+    display: inline-block;
+}
+.logo-wrap img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.logo-wrap{
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+.option-box label img{
+    width: 24px;
+}
+.option-box select{
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.option-box{
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.option-box::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background:rgba(0,0,0,.16);
+    width: 1px;
+    bottom:0;
+    right: 0;
+}
+.user{
+    display: inline-block;
+}
+.header-main a{
+    font-size: 14px;
+}
+.signup{
+    color: #fff!important;
+    background:#243C93;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.login{
+    color: #2266FF!important;
+}
+.signup:hover,
+.login:hover{
+    text-decoration: none;
+}
+.fa-sign-in:before {
+    content: "\f090";
+    font-size: 16px;
+}
+.header-main{
+    padding: 10px 0px;
+    padding-top: 20px;
+}
+.clear {
+    clear: both;
+}
+@media only screen and ( max-width:991px){
+    .header-main{
+        background-image: linear-gradient(#4E81FF , #E8EEFF);
+    }
+    .header-main .user,
+    .header-main .nav-bars{
+        display: inline-block;
+        float: right;
+        margin-left: 10px;
+    }
+    .header-main .nav-bars{
+        border: none;
+        background: none;
+        position: relative;
+        top: -1px;
+    }
+    .header-main a {
+        font-size: 12px;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 10px 2px;
+    }
+}
